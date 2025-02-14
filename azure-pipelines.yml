@@ -6,8 +6,7 @@
 trigger:
 - main
 
-pool:
-  vmImage: ubuntu-latest
+pool: lucarval-local
 
 steps:
 - task: Maven@3
